@@ -20,7 +20,6 @@ window.addEventListener('load', () => {
   });
 
   const createBubble = (index) => {
-    //Create bubbles
     const bubble = document.createElement('div');
     visual.appendChild(bubble);
     bubble.style.backgroundColor = colors[index];
